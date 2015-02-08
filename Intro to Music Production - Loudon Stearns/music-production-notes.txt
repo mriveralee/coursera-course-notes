@@ -1,0 +1,175 @@
+--------------------------------------------------------
+Michael Rivera
+Course: Introduction to Music Production
+Instructor: Loudon Stearns
+Lecture Notes
+--------------------------------------------------------
+
+I. Lesson 1: Sound & Signal Flow - 2015/02/02 
+  A. Properties of Sound -- all independent from one another
+    - Propagation: sound moving through a medium (air, water)
+      * Medium affects the speed of propagation 
+      * Through air 340 m/sec || 1 ft/msec || 1 mile / 5 sec || 1 km / 3 secs
+      * Creates a sense depth, space based on how the sound travels and reflects off other objects
+    - Amplitude: extent of wave; how much air compresses and rarefies as the waveform moves (propagates through the air)
+      * On guitar string, water - direction of propagation is transverse wave (perpendicular to the medium)
+      * In air, the direction of propagation is longitudinal (parallel) 
+      * Compression is the wave becoming more dense
+      * Rarefaction is spreading the wave (making less dense)
+      * Amplitude measured in Decibels, 
+        - Dbspl (sound pressure level - units when measured in air) - sets the zero to the threshold of hearing
+          - Threshold of hearing to threshold of pain
+        - Dbfs - full scale, measurement on the computer from 0 to largest negative number
+      * Amplitude is measured by computer
+      * Loudness is our human perception of the sound (related to duration / frequency)
+      * Dynamic range of microphone (dbs that the microphone will produce sounds. Noise floor to the distortion)
+        - Compressors affect DR
+    - Frequency: how fast the sound is vibrating (low frequency == slow wave; high == fast wave)
+      * Timbre: combination of frequencies; filters affect timbre
+      * Human hearing Lowest = 20 Hz; Highest 20,000 Hz (20 kHz)
+      * Frequency Response Curve - displays what frequencies are aptly responded to
+  
+  B. Visualizing Sound
+    - Oscilloscope - visualizes the Amplitude (y) over time (x) 
+    - Spectrum Analyzer 
+      * Shows frequency (x) vs Amplitude (y) at a period in time
+      * Doesn't show how things change over time
+      * Energy at a frequency
+      * Can describe Timbre - partials/harmonics shown;
+        - Harmonics: integer multiples of fundamental frequency
+    - Spectogram/Sonogram - multiple Spectrum Analyzer over time vs frequency; displays harmonics; how timbre evolves over time
+
+  C. Connections Overview
+    - Signal Flow of home studio setup
+    - Input: Sound source -> sound -> input transducter microphone [balanced XLR Cable] -> Audio Interface [mic preamp -> line level audio signal -> Analog to Digital Converter -> binary info] -> Computer [USB or Firewire cable -> DAW]
+    - <Break the flow diagrams>
+    - Output: Computer [DAW -> USB or Firewire Cable] -> Audio Interface [binary info -> Digital to Analog Converter] -> Output Transducer "Speaker" [line level audio signal (XLR, TS, TRS) -> Amplifier -> High level audio signal -> Sound pressure waves in air] 
+
+  D. Microphones (Transducer)
+    - Transduction - converts sound pressure waves in air to voltage waves in a wire
+    - Process modifies a sounds in certain ways based on microphone
+    - Types of Microphones
+      * Dynamic Microphone (Ex: Shure SM 58, On stage mic) - doesn't pick up much outside of its range, very ridgid, not easily broken 
+        - Requires no additonal power
+      * Condensor Microphone - very sensitive potential to pick up monitor and cause feedback
+        - Requires Phantom power (+48v)
+        - Med/Large Diaphragm condensor microphone is best for starting out
+      *  Other types won't be dive into these right now
+
+  E. Microphone Frequency Response
+    - MFR tells us what frequencies will be picked up well vs not well by the microphone
+    - Choosing an appropriate microphone/MFR is important for different applications. 
+      - Shure SM58: excellent for vocals
+      - AKG C414: WYHIWYG; flat MFR
+
+  F. Microphone Polar Patterns
+    - MPP what area around the microphone that will be picked up well vs rejected
+    - Types of PP:
+      * Cardioid (directional): Heart-shaped from the head, doesn't pick up from behind the microphone. Focused sound that doesn't include much of the room
+      * Omnidirection: all directions equally well; captures the room space as well
+      * Figure-8: front and back of the microphone picked up very well
+      * Other flavors: Super-cardioid
+    - Some mics have a variable PP, though changing the polar pattern changes the FRC of the microphone
+
+  G. Microphone Placement
+    - Microphones are your ear in the studio
+    - Move around the instrument listen closely
+    - Understanding how the sound changes will tell you where to place the microphone
+    - Point the microphone logo toward you for side-addressed microphones
+
+  H. Line Level and Gain Staging
+    - Line Level: Audio signals are communicated across many devices. To work well we need a common level for all devices to work together.
+    - Gain Stage: place in your input signal that either amplifies or attenuates a signal passing through. Be careful, gain staging can cause distorting. 
+      - On Std. Mixing Board
+        * Studio Quality Level: +4
+        * Consumer Level: -10v
+    - Changing the Trim knob changes how much we amplify/attentuate the signal to get it to line level. 
+    - Never amplify, attentuate, amplify multiple times.Ideally we want to have as many gain stages at Unity (U). Get the flow to Line Level then keep it there.
+    - Microphone Pre-amp designed to bring up mic line input up to the line level
+    - Gain Staging: is what attenuates or amplifies a sound to get it to the line level.
+
+  J. Cables - 
+    - Types of Cables
+      - 1/4 inch TS Cable (Instrument / Single Conductor Cable: Unbalanced quarter inch connector. TS is used more many pieces of gear (guitar, etc).
+      - Two-conductor Cable w/ Shield (TRS) - two uses in the studio 
+        * 1: Transmits two separate signals
+        * 2: Balanced Configuration - a single signal, across two channels 
+      - XLR Cable - Balanced Cable; designed for microphones; have locking feature. Not used for stereo signal 
+      - 1/8 Inch Stereo Cable - same as TRS; can be converted
+      - RCA Cables std. for home applications; be careful when using these with pro-gear because of Gain Staging. Home Audio usually assumes a -10 which is bad if you input a +4 from Pro gear. 
+
+
+    - For long cable runs in studio/on stage, use XLR or balanced cable that will reject noise that happens along the length of the cable.
+    - Direct Box -- Allows you to convert from a Unbalanced cable to a balanced cable
+
+  K. Audio Interface (Ex. Motu Interface)
+    - Inputs are largely TRS; some XLR for microphones
+    - Do we need midi input?
+    - S/PDIF - good for digital reverb units
+    - Firewire output works better for many signals; USB good for a few singals (vocalist + guitar)
+    - Phantom Power -- 48v powers condensor microphones
+    - Headphone Output - much better to use the audio interface signal coming out than the computer's audio output
+    - Choose one that meets your needs
+    - Does it work with your computer; have the fxnality that you do need
+
+  L. Microphone Connection & Gain
+    - Avoid sound of making connection that could damage your equipment
+    - Turn On Procedure:
+      1) Reduce Input gain all the way down (this gets sent to A/D Converter). This does not guarantee no signal will go through; if you have a 
+      2) Turn Phantom Power Off (acts like an off switch for the microphone)
+      3) XLR Cable - female end of cable -> male end of microphone; male end of cable -> audio interface
+      4) Turn on Phantom Power 
+      5) Set the level where you want it to be in the final recording
+        - Err the side of caution - don't want to cause distortion so keep the gains on the lower side (you can always bring it up through the computer) 
+        - Keep in mind musicians usually 
+        - If has color meters keep it in the yellow range. NEVER RED. If no color meters, 3/4 bar range.
+    - Turn Off Procedure
+      1) Turn off monitors & down output volume
+      2) Turn mic gain all the way down
+      3) Turn off Phantom Power
+      4) Disconnect the microphone
+  
+  M. Analog to Digital Conversion
+    - Quantization: convert continuous audio stream into discrete units
+    - Sampling: taking very small piece of audio per second to measure the continuous audio stream discreetly
+    - Will Cover more in Week 2
+
+  N. Pickup Connections
+    - Output from Electric Guitar is 1/4 TS Cable
+      * tendency would be to plug this directly 
+      * No need for Phantom Power
+    - Procedure:
+      * Turn off Phantom Power
+      * Turn down gain/trim
+      * Plug the guitar TS into the Audio Interface
+    - Latency occurs using electric guitar when trying to hear back the signal through your computer (you can't hear the signal otherwise)
+    - To get rid of the latency, we can monitor the guitar outside of the computer
+      * Using an Amplifier (if it has a line out) - we can hear the sound in the room (like we would an acoustic) with way less latency than the computer 
+        - Turn input gain all the way down
+        - Plug the guitar into the amplifier, then the amplifier to the 
+        - NEVER hook Speaker Output on Amplifier to a Line Input Device
+        - Plug Line Out of the amplifier into the interface (using TS cable)
+        - Adjust the gains
+      * Using a Direct Box w/ Amplifier (w/o Line Out)
+        - 1/4 TS Cable to XLR converter; matches the impedience 
+        - Plug output of guitar into input of Direct Box
+        - Plug XLR into Direct Box, then plug the other end of the XLR into the Audio Interface
+        - Plug 1/4 TS into Amplifier
+        - Bonus: record the amplifier output using a microphone (XLR input to interface) to have both singals for later editing in the DAW
+
+  O. The Digital Audio Workstation
+    - Monitors / Speakers are important
+    - Get a set a speakers designed specifically for studio situation
+    - We don't want Home Theater speakers because they  are made to make things that sound good; we don't want that. We want the sound to be clear and transparent. 
+    - Studio Monitors are made to be transparent; have a conversation about them when choosing what to purchase
+
+II. Lesson 2: The Digital Audio Workstation (DAW) - 2015/02/09
+  A.
+
+
+
+
+
+
+
+
