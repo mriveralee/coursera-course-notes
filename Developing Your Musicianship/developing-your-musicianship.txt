@@ -1,0 +1,72 @@
+--------------------------------------------------------
+Michael Rivera
+Course: Developing Your Musicianship
+Instructor: George W. Russell, Jr.
+Lecture Notes
+--------------------------------------------------------
+
+I. Lesson 1: The Major Scale - 2015/02/02 
+  A. Important Definitions
+    - Harmony: the study of chords, scales, melodies
+    - Ear Training: identifying what your ear hears; making connections b/w musical mind, sounds around you, music notation, and your instrument
+    - Interval: distance b/w two notes
+      * Half Step (HS): one note to the next available note (Ex: D# ->E ; E-F)
+      * Wholestep (WS): two half steps up
+        - Ex: C -> D
+  B. The Major Scale [W-W-H-W-W-W-H]
+  C. Sharps and Flats
+    - Sharps raise the note by a half step 
+      * E + # = F
+      * F + # = F#
+      * A + # = A#
+    - Flats lower the note by a half step
+      * E + b = Eb (same as D#)
+      * F + b = Fb (same as E)
+      * A + b = Ab (same as G#)
+  D. Major 2nd & Major 3rd Intervals
+    - Major 2nd (2HS): whole step up up from root note 
+      * C -> D
+      * D -> E
+    - Major 3rd (4HS): 2 whole steps up from root not
+      * C -> E
+      * A -> C#
+  E. Tonal Center: The key that the song is in (the /Do/ of the scale) / Tonic, the predominant tone that you hear when you're playing a song.
+    - Most chords fit with the the tonic
+
+II. Lesson 2: Major and Minor Triads
+  A. Perfect 4th and Perfect 5th Intervals
+    - Perfect 4th (5 HS)
+      * Mnemonic: Wedding March
+      * Examples
+        - C -> F
+        - A -> D
+    - Perfect 5th (7 HS)
+      * Mnemonic: Twinkle, Twinkle
+      * Examples
+        - C -> G
+        - F -> C
+  B. Major & Minor Triads
+    - Major Triad: Three notes; Root, Upper Major Third Interval from root, then Upper Minor Third Interval from there.
+      * 1 -M3-> 3 -m3> 5
+      * Examples in Key of C      | Chords in Key built on Scale Degree
+        - C Major Triad: C-E-G    | (I)
+        - F Major Triad: F-A-C    | (IV)
+        - G Major Triad: G-B-D    | (V)
+    - Minor Triad: Flatten the third of the Major triad; Upper Minor Triad Interval from root, then Upper Major Third from there.
+      * 1 -m3-> 3b -M3-> 5
+      * Examples in Key of Cminor | Chords in Key built on Scale Degree
+        - C minor Triad: C-Eb-G   | (i)
+        - F minor Triad: F-Ab-C   | (iv)
+        - G minor Triad: G-Bb-D   | (v)
+  C. I - IV - V Chord Progressions: Prominent in Many Songs
+    - Tonic Chord (I) - Subdominant Chord (IV) - Dominant Chord (V)
+    - V Chord has tendency to go back to one because of the leading tone (scale degree 7)
+    - Progressions: 
+      * I - IV - V - I
+      * I - V - IV - V - I
+      * IV - V - IV - I
+      * V - IV - V -I
+
+
+
+

@@ -51,7 +51,7 @@ I. Lesson 1: Sound & Signal Flow - 2015/02/02
     - Types of Microphones
       * Dynamic Microphone (Ex: Shure SM 58, On stage mic) - doesn't pick up much outside of its range, very ridgid, not easily broken 
         - Requires no additonal power
-      * Condensor Microphone - very sensitive potential to pick up monitor and cause feedback
+      * Condensor Microphone - very sensitive; potential to pick up monitor speakers and cause feedback
         - Requires Phantom power (+48v)
         - Med/Large Diaphragm condensor microphone is best for starting out
       *  Other types won't be dive into these right now
