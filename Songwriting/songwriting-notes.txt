@@ -55,14 +55,62 @@ I. Lesson 1: The Journey of a Song - 2015/02/02
         - A: You are amazing
         - B: I have been looking for so long...
         - C: We will always be together, when you're in my freezer o_o
-  D. Six Best Friends
+  D. Six Best Friends - calling the friends
+    - WWWWWH - Who, What, When, Where, Why, How?
+    - First Box: 
+        * When, when does this happen?
+        * 
+  E. Song Form
+    - The boxes are simple a description of the way the idea moves
+      * First Box could easily be 2 verses, pre-chorus, chorus
+      * Second Box could be verse, verse, pre-chorus, chorus, again
+      * Third Box could just be a two-line bridge
+    - Song form is an /independent/ concept from the idea's movement
+    - Generally a song is created in sections (originally out of convenience)
+      * Verse: delivers the basic information of your song; give the fundamental feeling/platform from which the song evolves 
+      * Chorus (literally many people singing together): states the central idea of the song
+        - Should be fairly easy to sing
+        - Typically does not change words
+        - Moves to a different level and summarizes/or comments on the information delivered by the verses 
+      * Bridge: connects song sections; also moves to a different level of information than the other sections
+      * Pre-chorus: little bridge/link between the verse and chorus
+  F. The Story of Bernice: Relationship of song sections to the central idea
+    - Chorus should be the highlight of the song.
+    - The other sections should be diminished with respect to the chorus. If there is a high point/note in the other sections, it probably lesses the significance of the chorus (and we don't want that).
+
 II. Lesson 2: Stopping and Going - 2015/02/09
-  A.
+  A. Prosody: all elements work together to support the central message of the song; an appropriate relationship between the elements
+    - If there is any rule to songwriting, it is Prosody.
+    - Stability and instability - is an effective vehicle for expressing prosody
+    - Characterize ideas as stable/unstable, but note that tone can change the characterization
+      * Stable - like a fact; sarcasm (since it's a position of authority
+      * Unstable - like something is missing
+      * Ex: I'm grateful you're in my life - stable (change of tone + "but" can make it unstable)
+      * Ex: I wish you were here - tone implies unstable.
+  B. Stable v. Unstable
+    - Body language, tone set stability/instability, but they are just manifestations of feelings
+    - Anything can take one a different color if you change these aspects
+  C. Five Compositional Elements: five tools that are used to create stability/instability
+    - Number of lines
+      * Even number of lines feels stable; creates balances
+      * Odd number of lines feels unstable, creates a sense of longing
+      * Ex: John Mayer - "Your body is a wonderland", first 2 choruses have it 3 times, but final chorus has it 4 times (ends stable).
+      * Ex: Your Love's gonna take me away --> change 4 lines from 3 gives forward-moving instability.
+    - Matched or unmatched line lengths
+    - Rhyme Scheme
+    - Rhyme Types
+    - Rhythm of lines
 
 
 
-
-
+III. Lesson 3: Sonic GPS—Mapping Your Song with Rhyme 2015/02/17 
+  A. Rhyme Scheme
+  B. Perfect Rhyme
+  C. Family Rhyme
+  D. Finding Family Rhymes
+  E. Additive and Subtractive Rhyme
+  F. Assonance Rhyme
+  G. Consonance Rhyme
 
 
 
