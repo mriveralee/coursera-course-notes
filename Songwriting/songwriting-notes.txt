@@ -57,9 +57,12 @@ I. Lesson 1: The Journey of a Song - 2015/02/02
         - C: We will always be together, when you're in my freezer o_o
   D. Six Best Friends - calling the friends
     - WWWWWH - Who, What, When, Where, Why, How?
-    - First Box: 
-        * When, when does this happen?
-        * 
+    - Who's talking / To Whom
+    - What do you have to say?
+    - Why are you saying it?
+    - When, when does this happen?
+    - Where, where is this happening?
+    - How does it all come together?
   E. Song Form
     - The boxes are simple a description of the way the idea moves
       * First Box could easily be 2 verses, pre-chorus, chorus
@@ -90,19 +93,35 @@ II. Lesson 2: Stopping and Going - 2015/02/09
   B. Stable v. Unstable
     - Body language, tone set stability/instability, but they are just manifestations of feelings
     - Anything can take one a different color if you change these aspects
-  C. Five Compositional Elements: five tools that are used to create stability/instability
-    - Number of lines
-      * Even number of lines feels stable; creates balances
-      * Odd number of lines feels unstable, creates a sense of longing
+  C. Five Compositional Elements: five tools that are used to create stability/instability - number of lines, matched/unmatched line lengths, rhyme scheme, rhyme types, rhythm of lines
+  D. Number of lines
+    - Even number of lines feels stable; creates balances
       * Ex: John Mayer - "Your body is a wonderland", first 2 choruses have it 3 times, but final chorus has it 4 times (ends stable).
+    - Odd number of lines feels unstable, creates a sense of longing
       * Ex: Your Love's gonna take me away --> change 4 lines from 3 gives forward-moving instability.
-    - Matched or unmatched line lengths
-    - Rhyme Scheme
-    - Rhyme Types
-    - Rhythm of lines
-
-
-
+    - Effects
+      * Prosody - emotionally supporting the whole
+      * Spotlighting important ideas - statisfying expectations creates a balancing position for even numbers of lines; removing a line gives a sense of instability
+      * Stopping or Moving one section into another - even creates the sense of "I'm done"; odd creates a sense of "going"
+        - Ex: Odd numbers of lines are typically used in sections that want to move (pre-chorus
+      * Create contrast between sections
+        - "The Great Pretended" by Buck Ram - first two verses are 4 lines, 2 line bridge, last verse is 5 lines, creates a feel of longing
+  E. Line Lengths -
+    - Matched Line Lengths: feel stable; resolved; complete
+      * Ex: Just a little shoebox in a package / Momma must have kept it all these year
+      * Ex: Here comes the sun / fingers of gold
+    - Unmatched Line Lengths: feel unstable; unbalanced; unresolved
+      * Ex: Just a little shoebox in a package / she kept it all these yeara
+      * Ex: Here comes the sunrise / fingers of gold
+    - Shorter second line (than first) creates a feeling of moving forward; taking away things creates expectation
+    - Longer second line (than first) creates a 
+    spotlight, as opposed to creating a sense of moving forward; adding things creates a spotlight
+    - Effects
+      * Prosody: line lengths can be used to created prosody; shortening the last line can create anticipation. Expectation of how long a line should be gives a sense of instability
+      * Spotlighting an idea: longer line at the end gives additional attention to what is being said. 
+      * Long line, short line, longest line creates a senses of instability and pushes for another section.
+      * Creating contrast between sections: Use long lines in one section to feel relaxed, then short in the next to give a sense of immediacy.
+      * Different Line lengths lets you create immediate contrast.
 III. Lesson 3: Sonic GPS—Mapping Your Song with Rhyme 2015/02/17 
   A. Rhyme Scheme
   B. Perfect Rhyme
