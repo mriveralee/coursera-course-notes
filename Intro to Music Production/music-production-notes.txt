@@ -164,7 +164,60 @@ I. Lesson 1: Sound & Signal Flow - 2015/02/02
     - Studio Monitors are made to be transparent; have a conversation about them when choosing what to purchase
 
 II. Lesson 2: The Digital Audio Workstation (DAW) - 2015/02/09
-  A.
+  A. Overview 
+    - Pre-production: composing a song, getting ideas toghether
+    - Production: recording the song, tracks
+    - Post-Production: editing, mixing and mastering
+    - Focus on post-prod: setting up a project, recording, editing, mixing, MIDI data
+  B. Analog to Digital Conversion
+    - Sound is pressure variations in the air (continuous), but the computer can't understand continually variable data. It only understands binary data.
+    - Binary information -
+      * number of bits: determines the largest number we can represent
+      * Word is collection of bits
+      * Largest number we can represent given a word is 2^x, where x is the length of a word.
+      * Word length == bit depth
+      * CD Standard Quality depth is 16-bit 
+      * Studio Quality depth is 24-bit
+      * Higher bit depth gives us more Dynamic Range (Resolution of Recording) -- related to Amplitude
+    - Sampling: how fast we do measurements of amplitude
+      * Need ~40,000 samples/sec to accurately measure the cont
+      * Nyquist Frequency: Higher Sample Rate ==> Higher number of Frequencies that can be represented; 1/2 the Sampling Rate is the total number of frequencies that can represented.
+        - 44.1kHz ==> 22k frequencies (threshold of hearing)
+        - Recommended 24-bit dept + at least 48kHz
+      * Speeding up a sampling rate (44.1kHz -> 96 kHz) is like speeding up a track 
+        - Changing the sample rate can also alter the frequency we hear
+      * Modifying a single sample can have a drastic impact on what we hear (moving one sample point can cause a click in the audio)
+    C. Buffer Size
+      - Computers are doing billions of things a second; to ensure that words are delivered in time for audio, computer's use buffer of bits
+        * Lower the buffer size: less latency (delay), less plugins that can be used
+        * Higher Buffer Size: more latency, the higher number of plug-ins that can be used
+      - Recording Buffer Size: use a low buffer size: 128 samples
+      - Post-production Buffer Size: use 1024 when necessary (can increase once computer starts encountering issues playing the audio)
+      - Buffer size can cause noticeable delays! 
+        * Ex: Sampling rate 48 khz, 48k samples/sec; buffer size 128 samples  ==> delay 2 ms; Not Bad
+        * Ex: Sampling rate: 48 kHz ==> 48k samples/sec w/ buffer size 1024 samples ==> 21.3 ms; Very Noticeable 
+        * If you have lots of tracks/plug-ins that are running at once, try recording them down to the audio.
+    D. File Types
+      - Data Compression: reduces the data size, but can also loss some information.
+      - We want to use a lossless compression format: *WAV, AIFF* - large, but highest quality.
+        * Choose broadcast wave files (BWF): stores extra meta data with the wav file)
+      - Interleaved v. de-interleaved: Use interleaved; saves the left and right channels to one file.
+      - Basic DAW Setup:
+        * 24 bit recording
+        * 48 kHz Sample Rate
+        * WAV/BWF, AIFF File Format
+        * Interleaved
+    E. Project Folder
+      - Houses audio files and other assets relate to the music– can include folders for filters, time-stretching, individual audio files
+      - Use 'Save As' in a DAW but know the use cases
+        * Saving individual project file: great for creating a new version; saves hard drive space.
+        * Saving the entire project folder: Good for transmitting the entire project to someone else.
+
+   
+
+
+
+
 
 
 
